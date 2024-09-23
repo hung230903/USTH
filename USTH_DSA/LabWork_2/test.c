@@ -81,8 +81,8 @@ int main() {
 
     addCar(&train, '1', 10, 5);  
     addCar(&train, '2', 20, 0);   
-    addCar(&train, '3', 30, 10);  
-    addCar(&train, '4', 40, 15);  
+    addCar(&train, '3', 30, 15);  
+    addCar(&train, '4', 40, 25);  
     addCar(&train, '5', 50, 0);  
 
     printf("---\n");
@@ -98,22 +98,6 @@ int main() {
     int length = getTrainLength(train);
     printf("\nTrain length: %d", length);
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
